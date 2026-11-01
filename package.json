@@ -1,0 +1,11 @@
+{
+  "name": "floussi",
+  "version": "1.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "node server.mjs",
+    "start": "node server.mjs",
+    "build": "node build.mjs",
+    "check": "node --check public/i18n.js && node --check public/app.js && node --check server.mjs && node --check build.mjs"
+  }
+}
